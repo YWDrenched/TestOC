@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>哈哈</title>
+
+<style>
+    #senderButton{
+        /*background: orange;*/
+        width: 200px;
+        height: 50px;
+        border: none;
+        text-align: center;
+        line-height: 50px;
+        font-size: 30px;
+        margin-top: 40px;
+        }
+
+    p{
+        font-size: 30px;
+        margin: auto;
+
+    }
+
+</style>
+</head>
+<body>
+
+<!--<a href="javaScript:test1()">通过连接调用函数</a>-->
+<div>
+    <p>恭喜您，支付成功！</p>
+
+    <input id="senderButton" type="button" value="确认">
+
+</div>
+<script>
+    //必要设置1
+    function setupWebViewJavascriptBridge(callback) {
+        if (window.WebViewJavascriptBridge) { return callback(WebViewJavascriptBridge); }
+        if (window.WVJBCallbacks) { return window.WVJBCallbacks.push(callback); }
+        window.WVJBCallbacks = [callback];
+        var WVJBIframe = document.createElement('iframe');
+        WVJBIframe.style.display = 'none';
+        WVJBIframe.src = 'wvjbscheme://__BRIDGE_LOADED__';
+        document.documentElement.appendChild(WVJBIframe);
+        setTimeout(function() { document.documentElement.removeChild(WVJBIframe) }, 0)
+    }
+
+    setupWebViewJavascriptBridge(function(bridge) {
+
+        var oBtn = document.getElementById("senderButton")
+
+        oBtn.onclick = function(){
+            bridge.callHandler('registerHandle', {'信息来源:': '我是js,我调用了oc方法(弹出一个UIAlert)'}, function(response) {
+            })
+        }
+
+
+    })
+</script>
+
+
+
+</body>
+</html>

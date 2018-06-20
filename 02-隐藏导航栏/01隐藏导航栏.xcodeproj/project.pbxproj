@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6512CFA37175F492A0AB1485 /* libPods-01隐藏导航栏.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 12224FA07BD9EAB354B68C2E /* libPods-01隐藏导航栏.a */; };
+		F9163D22205B97AE002229D1 /* CYWCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9163D21205B97AE002229D1 /* CYWCollectionViewController.m */; };
+		F9AB4B64205A0D03003F4898 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F9AB4B63205A0D03003F4898 /* main.m */; };
+		F9AB4B67205A0D03003F4898 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9AB4B66205A0D03003F4898 /* AppDelegate.m */; };
+		F9AB4B6A205A0D03003F4898 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9AB4B69205A0D03003F4898 /* ViewController.m */; };
+		F9AB4B6D205A0D04003F4898 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9AB4B6B205A0D04003F4898 /* Main.storyboard */; };
+		F9AB4B6F205A0D04003F4898 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9AB4B6E205A0D04003F4898 /* Assets.xcassets */; };
+		F9AB4B72205A0D04003F4898 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9AB4B70205A0D04003F4898 /* LaunchScreen.storyboard */; };
+		F9AB4B7B205A107E003F4898 /* CYWTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9AB4B7A205A107E003F4898 /* CYWTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02273EB5DA2AC1343E38C4EB /* Pods-01隐藏导航栏.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-01隐藏导航栏.debug.xcconfig"; path = "Pods/Target Support Files/Pods-01隐藏导航栏/Pods-01隐藏导航栏.debug.xcconfig"; sourceTree = "<group>"; };
+		12224FA07BD9EAB354B68C2E /* libPods-01隐藏导航栏.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-01隐藏导航栏.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EBBC1C703E8A9288B3F359E /* Pods-01隐藏导航栏.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-01隐藏导航栏.release.xcconfig"; path = "Pods/Target Support Files/Pods-01隐藏导航栏/Pods-01隐藏导航栏.release.xcconfig"; sourceTree = "<group>"; };
+		F9163D20205B97AE002229D1 /* CYWCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYWCollectionViewController.h; sourceTree = "<group>"; };
+		F9163D21205B97AE002229D1 /* CYWCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYWCollectionViewController.m; sourceTree = "<group>"; };
+		F9AB4B5F205A0D03003F4898 /* 01隐藏导航栏.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "01隐藏导航栏.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9AB4B63205A0D03003F4898 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F9AB4B65205A0D03003F4898 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F9AB4B66205A0D03003F4898 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F9AB4B68205A0D03003F4898 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F9AB4B69205A0D03003F4898 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F9AB4B6C205A0D04003F4898 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F9AB4B6E205A0D04003F4898 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F9AB4B71205A0D04003F4898 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F9AB4B73205A0D04003F4898 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9AB4B79205A107E003F4898 /* CYWTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYWTableViewController.h; sourceTree = "<group>"; };
+		F9AB4B7A205A107E003F4898 /* CYWTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYWTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F9AB4B5C205A0D03003F4898 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6512CFA37175F492A0AB1485 /* libPods-01隐藏导航栏.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13B9ED1310D989C46BFE958A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				02273EB5DA2AC1343E38C4EB /* Pods-01隐藏导航栏.debug.xcconfig */,
+				9EBBC1C703E8A9288B3F359E /* Pods-01隐藏导航栏.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BD2C4CC0D0D73437FD966D40 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12224FA07BD9EAB354B68C2E /* libPods-01隐藏导航栏.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F9AB4B56205A0D03003F4898 = {
+			isa = PBXGroup;
+			children = (
+				F9AB4B61205A0D03003F4898 /* 01隐藏导航栏 */,
+				F9AB4B60205A0D03003F4898 /* Products */,
+				13B9ED1310D989C46BFE958A /* Pods */,
+				BD2C4CC0D0D73437FD966D40 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F9AB4B60205A0D03003F4898 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F9AB4B5F205A0D03003F4898 /* 01隐藏导航栏.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F9AB4B61205A0D03003F4898 /* 01隐藏导航栏 */ = {
+			isa = PBXGroup;
+			children = (
+				F9AB4B65205A0D03003F4898 /* AppDelegate.h */,
+				F9AB4B66205A0D03003F4898 /* AppDelegate.m */,
+				F9AB4B68205A0D03003F4898 /* ViewController.h */,
+				F9AB4B69205A0D03003F4898 /* ViewController.m */,
+				F9AB4B79205A107E003F4898 /* CYWTableViewController.h */,
+				F9AB4B7A205A107E003F4898 /* CYWTableViewController.m */,
+				F9163D20205B97AE002229D1 /* CYWCollectionViewController.h */,
+				F9163D21205B97AE002229D1 /* CYWCollectionViewController.m */,
+				F9AB4B6B205A0D04003F4898 /* Main.storyboard */,
+				F9AB4B6E205A0D04003F4898 /* Assets.xcassets */,
+				F9AB4B70205A0D04003F4898 /* LaunchScreen.storyboard */,
+				F9AB4B73205A0D04003F4898 /* Info.plist */,
+				F9AB4B62205A0D03003F4898 /* Supporting Files */,
+			);
+			path = "01隐藏导航栏";
+			sourceTree = "<group>";
+		};
+		F9AB4B62205A0D03003F4898 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9AB4B63205A0D03003F4898 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F9AB4B5E205A0D03003F4898 /* 01隐藏导航栏 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9AB4B76205A0D04003F4898 /* Build configuration list for PBXNativeTarget "01隐藏导航栏" */;
+			buildPhases = (
+				B3215E446143C8B6A4E2D85A /* [CP] Check Pods Manifest.lock */,
+				F9AB4B5B205A0D03003F4898 /* Sources */,
+				F9AB4B5C205A0D03003F4898 /* Frameworks */,
+				F9AB4B5D205A0D03003F4898 /* Resources */,
+				485C902C2CED5C9CA6820245 /* [CP] Embed Pods Frameworks */,
+				16E13D3847FB7BEE2DF171D8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "01隐藏导航栏";
+			productName = "01隐藏导航栏";
+			productReference = F9AB4B5F205A0D03003F4898 /* 01隐藏导航栏.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F9AB4B57205A0D03003F4898 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "陈友文";
+				TargetAttributes = {
+					F9AB4B5E205A0D03003F4898 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = H7X2WW2UAU;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F9AB4B5A205A0D03003F4898 /* Build configuration list for PBXProject "01隐藏导航栏" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F9AB4B56205A0D03003F4898;
+			productRefGroup = F9AB4B60205A0D03003F4898 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F9AB4B5E205A0D03003F4898 /* 01隐藏导航栏 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F9AB4B5D205A0D03003F4898 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9AB4B72205A0D04003F4898 /* LaunchScreen.storyboard in Resources */,
+				F9AB4B6F205A0D04003F4898 /* Assets.xcassets in Resources */,
+				F9AB4B6D205A0D04003F4898 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16E13D3847FB7BEE2DF171D8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-01隐藏导航栏/Pods-01隐藏导航栏-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		485C902C2CED5C9CA6820245 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-01隐藏导航栏/Pods-01隐藏导航栏-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3215E446143C8B6A4E2D85A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-01隐藏导航栏-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F9AB4B5B205A0D03003F4898 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9AB4B6A205A0D03003F4898 /* ViewController.m in Sources */,
+				F9AB4B7B205A107E003F4898 /* CYWTableViewController.m in Sources */,
+				F9AB4B67205A0D03003F4898 /* AppDelegate.m in Sources */,
+				F9AB4B64205A0D03003F4898 /* main.m in Sources */,
+				F9163D22205B97AE002229D1 /* CYWCollectionViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F9AB4B6B205A0D04003F4898 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9AB4B6C205A0D04003F4898 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F9AB4B70205A0D04003F4898 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F9AB4B71205A0D04003F4898 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F9AB4B74205A0D04003F4898 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F9AB4B75205A0D04003F4898 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9AB4B77205A0D04003F4898 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02273EB5DA2AC1343E38C4EB /* Pods-01隐藏导航栏.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H7X2WW2UAU;
+				INFOPLIST_FILE = "01隐藏导航栏/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "chenyouwen.-1-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F9AB4B78205A0D04003F4898 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EBBC1C703E8A9288B3F359E /* Pods-01隐藏导航栏.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H7X2WW2UAU;
+				INFOPLIST_FILE = "01隐藏导航栏/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "chenyouwen.-1-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F9AB4B5A205A0D03003F4898 /* Build configuration list for PBXProject "01隐藏导航栏" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9AB4B74205A0D04003F4898 /* Debug */,
+				F9AB4B75205A0D04003F4898 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9AB4B76205A0D04003F4898 /* Build configuration list for PBXNativeTarget "01隐藏导航栏" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9AB4B77205A0D04003F4898 /* Debug */,
+				F9AB4B78205A0D04003F4898 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F9AB4B57205A0D03003F4898 /* Project object */;
+}

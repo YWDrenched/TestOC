@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <meta content="text/html; charset=utf-8" http-equiv="content-type">
+        <title>
+
+        </title>
+    </head>
+    
+    <body>
+        <p>
+            <input type="text" id="text1"  placeholder="账号"/>
+        </p>
+        <p>
+            <input type="text" id="text2"  placeholder="密码"/>
+        </p>
+        <p>
+            <input type="button" id="enter" value="发消息给Native" onclick="testClick();"/>
+        </p>
+        <p>
+            <input type="button" id="enter1" value="调用Native方法" onclick="testClick1();"/>
+        </p>
+    <p id="rmsg"></p>
+        <p id="rmsg2"></p>
+    </body>
+    <script>
+        function testClick() {
+            var str1 = document.getElementById("text1").value;
+            var str2 = document.getElementById("text2").value;
+
+            var data = {"user":str1,"pwd":str2};
+            window.WebViewJavascriptBridge.send(
+                data
+                , function(responseData) {
+                    document.getElementById("rmsg").innerHTML = "返回得数据= " + responseData
+                }
+            );
+
+        }
+
+        function testClick1() {
+            var str1 = document.getElementById("text1").value;//username
+            var str2 = document.getElementById("text2").value;//password
+
+            //call native method
+            window.WebViewJavascriptBridge.callHandler(
+                'submitFromWeb'
+                <!--, {'param': '中文测试'}-->
+                ,{'username':str1,'password':str2}
+                , function(responseData) {
+                    document.getElementById("rmsg2").innerHTML = "返回信息2= " + responseData
+                }
+            );
+        }
+
+    </script>
+
+</html>

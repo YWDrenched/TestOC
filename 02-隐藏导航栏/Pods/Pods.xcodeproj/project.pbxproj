@@ -1,0 +1,493 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38BE8ABC67405B70B73723EA9AF7B806 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		47EC8C0758C1453998F1E31BF7B93619 /* UIViewController+ScrollingNavbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DC50B8DFC8D65DDFA3339D7FA4CE34 /* UIViewController+ScrollingNavbar.m */; };
+		56FC8B00CB62571540936B4DFC66DB17 /* AMScrollingNavbar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 171B961264594924F25258E24C5C80B5 /* AMScrollingNavbar-dummy.m */; };
+		68533CE8200448A6091EE6552E22B690 /* Pods-01隐藏导航栏-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E134B5175F0F7917D1A20C77A6FCC00 /* Pods-01隐藏导航栏-dummy.m */; };
+		B51B5FC388BF0EB0F3FEE191330DB9A6 /* UIViewController+ScrollingNavbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 00DDE557725572C21E6B6E473007ED87 /* UIViewController+ScrollingNavbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CAA81720A8F1A47C6C83AE500D06F443 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2367E3D219408448BC60FAB3A44C1CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8A06A70276E3430A5D0DD2416DF606D;
+			remoteInfo = AMScrollingNavbar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00DDE557725572C21E6B6E473007ED87 /* UIViewController+ScrollingNavbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+ScrollingNavbar.h"; path = "AMScrollingNavbar/UIViewController+ScrollingNavbar.h"; sourceTree = "<group>"; };
+		171B961264594924F25258E24C5C80B5 /* AMScrollingNavbar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AMScrollingNavbar-dummy.m"; sourceTree = "<group>"; };
+		4F2027B900B951F4E14117B9D9A93159 /* Pods-01隐藏导航栏-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-01隐藏导航栏-frameworks.sh"; sourceTree = "<group>"; };
+		54DC50B8DFC8D65DDFA3339D7FA4CE34 /* UIViewController+ScrollingNavbar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+ScrollingNavbar.m"; path = "AMScrollingNavbar/UIViewController+ScrollingNavbar.m"; sourceTree = "<group>"; };
+		55BA5C10D540ABDEDD25218F9F8CC91A /* Pods-01隐藏导航栏-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-01隐藏导航栏-acknowledgements.markdown"; sourceTree = "<group>"; };
+		614F9B6CE629F35282C2D72333F311F6 /* libPods-01隐藏导航栏.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-01隐藏导航栏.a"; path = "libPods-01隐藏导航栏.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		695C5B89D55D9C723647BDA5DBAC16E4 /* AMScrollingNavbar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMScrollingNavbar-prefix.pch"; sourceTree = "<group>"; };
+		8E134B5175F0F7917D1A20C77A6FCC00 /* Pods-01隐藏导航栏-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-01隐藏导航栏-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DCE355AD19A312C2F0011ABAD85C58F /* libAMScrollingNavbar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libAMScrollingNavbar.a; path = libAMScrollingNavbar.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEC884FF084C85F5DED25BE8F3930725 /* AMScrollingNavbar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMScrollingNavbar.xcconfig; sourceTree = "<group>"; };
+		D721B211386E52FD1749C1ADA421C373 /* Pods-01隐藏导航栏.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-01隐藏导航栏.debug.xcconfig"; sourceTree = "<group>"; };
+		DF2F4B06763CFA3F7D2C3EFC8C7BE34E /* Pods-01隐藏导航栏-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-01隐藏导航栏-acknowledgements.plist"; sourceTree = "<group>"; };
+		E0AC6A98F956FEEB709016E28879EDAD /* Pods-01隐藏导航栏-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-01隐藏导航栏-resources.sh"; sourceTree = "<group>"; };
+		F25C25BCFE324C6BFDFA48478DE7FE0E /* Pods-01隐藏导航栏.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-01隐藏导航栏.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6D267E1D8EE1CAECE904AD08981552C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38BE8ABC67405B70B73723EA9AF7B806 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C075E7B012F20FA3AC40DD04782C19B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAA81720A8F1A47C6C83AE500D06F443 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21C353C22BA239E49039B652472EEF8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DCE355AD19A312C2F0011ABAD85C58F /* libAMScrollingNavbar.a */,
+				614F9B6CE629F35282C2D72333F311F6 /* libPods-01隐藏导航栏.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BEDD2740B836D427CD1BFBBBDBA8880 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDAA0248DA9B12E6E3C10E22C0800EF7 /* Pods-01隐藏导航栏 */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5CAA07ADF8199974756965D888520A49 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F0DD57E740CF40FE9E7CC498B84FE54 /* AMScrollingNavbar */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		705B0C887852CF5A8CC5D04F5A914DF3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AEC884FF084C85F5DED25BE8F3930725 /* AMScrollingNavbar.xcconfig */,
+				171B961264594924F25258E24C5C80B5 /* AMScrollingNavbar-dummy.m */,
+				695C5B89D55D9C723647BDA5DBAC16E4 /* AMScrollingNavbar-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AMScrollingNavbar";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				5CAA07ADF8199974756965D888520A49 /* Pods */,
+				21C353C22BA239E49039B652472EEF8B /* Products */,
+				5BEDD2740B836D427CD1BFBBBDBA8880 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7F0DD57E740CF40FE9E7CC498B84FE54 /* AMScrollingNavbar */ = {
+			isa = PBXGroup;
+			children = (
+				00DDE557725572C21E6B6E473007ED87 /* UIViewController+ScrollingNavbar.h */,
+				54DC50B8DFC8D65DDFA3339D7FA4CE34 /* UIViewController+ScrollingNavbar.m */,
+				705B0C887852CF5A8CC5D04F5A914DF3 /* Support Files */,
+			);
+			name = AMScrollingNavbar;
+			path = AMScrollingNavbar;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FDAA0248DA9B12E6E3C10E22C0800EF7 /* Pods-01隐藏导航栏 */ = {
+			isa = PBXGroup;
+			children = (
+				55BA5C10D540ABDEDD25218F9F8CC91A /* Pods-01隐藏导航栏-acknowledgements.markdown */,
+				DF2F4B06763CFA3F7D2C3EFC8C7BE34E /* Pods-01隐藏导航栏-acknowledgements.plist */,
+				8E134B5175F0F7917D1A20C77A6FCC00 /* Pods-01隐藏导航栏-dummy.m */,
+				4F2027B900B951F4E14117B9D9A93159 /* Pods-01隐藏导航栏-frameworks.sh */,
+				E0AC6A98F956FEEB709016E28879EDAD /* Pods-01隐藏导航栏-resources.sh */,
+				D721B211386E52FD1749C1ADA421C373 /* Pods-01隐藏导航栏.debug.xcconfig */,
+				F25C25BCFE324C6BFDFA48478DE7FE0E /* Pods-01隐藏导航栏.release.xcconfig */,
+			);
+			name = "Pods-01隐藏导航栏";
+			path = "Target Support Files/Pods-01隐藏导航栏";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2C66A4AE9DDCBD3355AE4FE0D1DD90FF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B51B5FC388BF0EB0F3FEE191330DB9A6 /* UIViewController+ScrollingNavbar.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0DF1F9A5196D5F629107722B05C020AA /* Pods-01隐藏导航栏 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4DD65B13283D4D6F0FDF57691A54307 /* Build configuration list for PBXNativeTarget "Pods-01隐藏导航栏" */;
+			buildPhases = (
+				E1838772186A1204615BC02D9E4F0877 /* Sources */,
+				8C075E7B012F20FA3AC40DD04782C19B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E205581EDC89E8EB08E733966AD13352 /* PBXTargetDependency */,
+			);
+			name = "Pods-01隐藏导航栏";
+			productName = "Pods-01隐藏导航栏";
+			productReference = 614F9B6CE629F35282C2D72333F311F6 /* libPods-01隐藏导航栏.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A8A06A70276E3430A5D0DD2416DF606D /* AMScrollingNavbar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C8442F1795D4995CEE1CD6C4B55308E /* Build configuration list for PBXNativeTarget "AMScrollingNavbar" */;
+			buildPhases = (
+				05FE60945BD632E4BA73C459635067C9 /* Sources */,
+				6D267E1D8EE1CAECE904AD08981552C8 /* Frameworks */,
+				2C66A4AE9DDCBD3355AE4FE0D1DD90FF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AMScrollingNavbar;
+			productName = AMScrollingNavbar;
+			productReference = 9DCE355AD19A312C2F0011ABAD85C58F /* libAMScrollingNavbar.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 21C353C22BA239E49039B652472EEF8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8A06A70276E3430A5D0DD2416DF606D /* AMScrollingNavbar */,
+				0DF1F9A5196D5F629107722B05C020AA /* Pods-01隐藏导航栏 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05FE60945BD632E4BA73C459635067C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56FC8B00CB62571540936B4DFC66DB17 /* AMScrollingNavbar-dummy.m in Sources */,
+				47EC8C0758C1453998F1E31BF7B93619 /* UIViewController+ScrollingNavbar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1838772186A1204615BC02D9E4F0877 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68533CE8200448A6091EE6552E22B690 /* Pods-01隐藏导航栏-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E205581EDC89E8EB08E733966AD13352 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AMScrollingNavbar;
+			target = A8A06A70276E3430A5D0DD2416DF606D /* AMScrollingNavbar */;
+			targetProxy = A2367E3D219408448BC60FAB3A44C1CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		181311E5DA2312C7D45DCE6D10C6543D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEC884FF084C85F5DED25BE8F3930725 /* AMScrollingNavbar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/AMScrollingNavbar/AMScrollingNavbar-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F9725F4BBCB6625045ED2EABB37DF8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEC884FF084C85F5DED25BE8F3930725 /* AMScrollingNavbar.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/AMScrollingNavbar/AMScrollingNavbar-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		621AB785940626574F07364CB14760E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		6844DC96D0BF3183E8B61905E8619484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F25C25BCFE324C6BFDFA48478DE7FE0E /* Pods-01隐藏导航栏.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B57C09D404C607DDE283C5C44183B2A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CD76DD61ABEBB26B693218DAE28E12D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D721B211386E52FD1749C1ADA421C373 /* Pods-01隐藏导航栏.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B57C09D404C607DDE283C5C44183B2A1 /* Debug */,
+				621AB785940626574F07364CB14760E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C8442F1795D4995CEE1CD6C4B55308E /* Build configuration list for PBXNativeTarget "AMScrollingNavbar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F9725F4BBCB6625045ED2EABB37DF8F /* Debug */,
+				181311E5DA2312C7D45DCE6D10C6543D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4DD65B13283D4D6F0FDF57691A54307 /* Build configuration list for PBXNativeTarget "Pods-01隐藏导航栏" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD76DD61ABEBB26B693218DAE28E12D8 /* Debug */,
+				6844DC96D0BF3183E8B61905E8619484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
